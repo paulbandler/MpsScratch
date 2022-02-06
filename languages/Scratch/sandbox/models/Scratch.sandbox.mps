@@ -20,6 +20,7 @@
       <concept id="4161887550365046900" name="Scratch.structure.FieldPropertyB" flags="ng" index="joerp">
         <property id="4161887550365046901" name="value" index="joero" />
       </concept>
+      <concept id="4161887550365046896" name="Scratch.structure.FieldProperty" flags="ng" index="joert" />
       <concept id="4161887550365227397" name="Scratch.structure.TypedProperties" flags="ng" index="joysC">
         <property id="4161887550365227406" name="someBooleanProperty" index="joysz" />
         <property id="4161887550365227401" name="someStringProperty" index="joys$" />
@@ -50,9 +51,7 @@
       <node concept="joerp" id="3B1ZEOECX_$" role="joeoH">
         <property role="joero" value="AnotherBValue" />
       </node>
-      <node concept="joerp" id="3B1ZEOEDUZY" role="joeoH">
-        <property role="joero" value="sddcds" />
-      </node>
+      <node concept="joert" id="3B1ZEOEEaxg" role="joeoH" />
     </node>
     <node concept="joerh" id="3B1ZEOECX_L" role="jnGH4">
       <property role="TrG5h" value="ThirdField" />
@@ -78,7 +77,6 @@
     <node concept="jnGH9" id="3B1ZEOEDzI9" role="joIoW">
       <ref role="jnGHa" node="3B1ZEOECX_L" resolve="ThirdField" />
     </node>
-    <node concept="jnGH9" id="3B1ZEOEDzId" role="joIoW" />
   </node>
 </model>
 
