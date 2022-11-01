@@ -16,11 +16,12 @@
       <concept id="4161887550365046908" name="Scratch.structure.FieldDef" flags="ng" index="joerh">
         <child id="4161887550365046912" name="properties" index="joeoH" />
       </concept>
-      <concept id="4161887550365046904" name="Scratch.structure.FieldPropertyA" flags="ng" index="joerl" />
+      <concept id="4161887550365046904" name="Scratch.structure.FieldPropertyA" flags="ng" index="joerl">
+        <property id="4161887550365046905" name="value" index="joerk" />
+      </concept>
       <concept id="4161887550365046900" name="Scratch.structure.FieldPropertyB" flags="ng" index="joerp">
         <property id="4161887550365046901" name="value" index="joero" />
       </concept>
-      <concept id="4161887550365046896" name="Scratch.structure.FieldProperty" flags="ng" index="joert" />
       <concept id="4161887550365227397" name="Scratch.structure.TypedProperties" flags="ng" index="joysC">
         <property id="4161887550365227406" name="someBooleanProperty" index="joysz" />
         <property id="4161887550365227401" name="someStringProperty" index="joys$" />
@@ -40,22 +41,30 @@
     <property role="TrG5h" value="SomeFieldDefinitions" />
     <node concept="joerh" id="3B1ZEOECX_c" role="jnGH4">
       <property role="TrG5h" value="FirstField" />
-      <node concept="joerl" id="3B1ZEOECX_e" role="joeoH" />
+      <node concept="joerl" id="3B1ZEOECX_e" role="joeoH">
+        <property role="joerk" value="1" />
+      </node>
       <node concept="joerp" id="3B1ZEOECX_j" role="joeoH">
         <property role="joero" value="bValue" />
       </node>
     </node>
     <node concept="joerh" id="3B1ZEOECX_n" role="jnGH4">
       <property role="TrG5h" value="SecondField" />
-      <node concept="joerl" id="3B1ZEOECX_u" role="joeoH" />
+      <node concept="joerl" id="3B1ZEOECX_u" role="joeoH">
+        <property role="joerk" value="2" />
+      </node>
       <node concept="joerp" id="3B1ZEOECX_$" role="joeoH">
         <property role="joero" value="AnotherBValue" />
       </node>
-      <node concept="joert" id="3B1ZEOEEaxg" role="joeoH" />
+      <node concept="joerl" id="36yKW0k9Iz2" role="joeoH">
+        <property role="joerk" value="3" />
+      </node>
     </node>
     <node concept="joerh" id="3B1ZEOECX_L" role="jnGH4">
       <property role="TrG5h" value="ThirdField" />
-      <node concept="joerl" id="3B1ZEOECX_U" role="joeoH" />
+      <node concept="joerl" id="3B1ZEOECX_U" role="joeoH">
+        <property role="joerk" value="100" />
+      </node>
       <node concept="joerp" id="3B1ZEOECX_Z" role="joeoH">
         <property role="joero" value="YetAnotherBPropertyValue" />
       </node>
